@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033803A72192B75600B407FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 033803A62192B75600B407FF /* AppDelegate.m */; };
+		033803AA2192B75600B407FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033803A92192B75600B407FF /* ViewController.m */; };
+		033803AD2192B75600B407FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033803AB2192B75600B407FF /* Main.storyboard */; };
+		033803AF2192B75E00B407FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033803AE2192B75E00B407FF /* Assets.xcassets */; };
+		033803B22192B75E00B407FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033803B02192B75E00B407FF /* LaunchScreen.storyboard */; };
+		033803B52192B75E00B407FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 033803B42192B75E00B407FF /* main.m */; };
+		033803BF2192B75E00B407FF /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 033803BE2192B75E00B407FF /* ______Tests.m */; };
+		033803CA2192B75E00B407FF /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 033803C92192B75E00B407FF /* ______UITests.m */; };
+		033803E32192B78200B407FF /* ZJImageOnlyHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 033803D92192B78200B407FF /* ZJImageOnlyHUDView.m */; };
+		033803E42192B78200B407FF /* ZJProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 033803DC2192B78200B407FF /* ZJProgressHUD.m */; };
+		033803E52192B78200B407FF /* ZJProgressHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 033803DE2192B78200B407FF /* ZJProgressHUDView.m */; };
+		033803E62192B78200B407FF /* ZJTextAndImageHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 033803E02192B78200B407FF /* ZJTextAndImageHUDView.m */; };
+		033803E72192B78200B407FF /* ZJTextOnlyHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 033803E22192B78200B407FF /* ZJTextOnlyHUDView.m */; };
+		033803F12192B7EF00B407FF /* KHJPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 033803F02192B7EF00B407FF /* KHJPopView.m */; };
+		033803F42192B81300B407FF /* KHJCircleProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 033803F32192B81300B407FF /* KHJCircleProgress.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		033803BB2192B75E00B407FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0338039A2192B75600B407FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 033803A12192B75600B407FF;
+			remoteInfo = "充电启动动画";
+		};
+		033803C62192B75E00B407FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0338039A2192B75600B407FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 033803A12192B75600B407FF;
+			remoteInfo = "充电启动动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033803A22192B75600B407FF /* 充电启动动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "充电启动动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		033803A52192B75600B407FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		033803A62192B75600B407FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		033803A82192B75600B407FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		033803A92192B75600B407FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		033803AC2192B75600B407FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		033803AE2192B75E00B407FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		033803B12192B75E00B407FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		033803B32192B75E00B407FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		033803B42192B75E00B407FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		033803BA2192B75E00B407FF /* 充电启动动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "充电启动动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		033803BE2192B75E00B407FF /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		033803C02192B75E00B407FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		033803C52192B75E00B407FF /* 充电启动动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "充电启动动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		033803C92192B75E00B407FF /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		033803CB2192B75E00B407FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		033803D82192B78200B407FF /* ZJImageOnlyHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJImageOnlyHUDView.h; sourceTree = "<group>"; };
+		033803D92192B78200B407FF /* ZJImageOnlyHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJImageOnlyHUDView.m; sourceTree = "<group>"; };
+		033803DA2192B78200B407FF /* ZJPrivateHUDProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPrivateHUDProtocol.h; sourceTree = "<group>"; };
+		033803DB2192B78200B407FF /* ZJProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJProgressHUD.h; sourceTree = "<group>"; };
+		033803DC2192B78200B407FF /* ZJProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJProgressHUD.m; sourceTree = "<group>"; };
+		033803DD2192B78200B407FF /* ZJProgressHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJProgressHUDView.h; sourceTree = "<group>"; };
+		033803DE2192B78200B407FF /* ZJProgressHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJProgressHUDView.m; sourceTree = "<group>"; };
+		033803DF2192B78200B407FF /* ZJTextAndImageHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTextAndImageHUDView.h; sourceTree = "<group>"; };
+		033803E02192B78200B407FF /* ZJTextAndImageHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTextAndImageHUDView.m; sourceTree = "<group>"; };
+		033803E12192B78200B407FF /* ZJTextOnlyHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTextOnlyHUDView.h; sourceTree = "<group>"; };
+		033803E22192B78200B407FF /* ZJTextOnlyHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTextOnlyHUDView.m; sourceTree = "<group>"; };
+		033803EF2192B7EF00B407FF /* KHJPopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHJPopView.h; sourceTree = "<group>"; };
+		033803F02192B7EF00B407FF /* KHJPopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHJPopView.m; sourceTree = "<group>"; };
+		033803F22192B81300B407FF /* KHJCircleProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHJCircleProgress.h; sourceTree = "<group>"; };
+		033803F32192B81300B407FF /* KHJCircleProgress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHJCircleProgress.m; sourceTree = "<group>"; };
+		033803F52192B8C900B407FF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0338039F2192B75600B407FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033803B72192B75E00B407FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033803C22192B75E00B407FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		033803992192B75600B407FF = {
+			isa = PBXGroup;
+			children = (
+				033803A42192B75600B407FF /* 充电启动动画 */,
+				033803BD2192B75E00B407FF /* 充电启动动画Tests */,
+				033803C82192B75E00B407FF /* 充电启动动画UITests */,
+				033803A32192B75600B407FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		033803A32192B75600B407FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				033803A22192B75600B407FF /* 充电启动动画.app */,
+				033803BA2192B75E00B407FF /* 充电启动动画Tests.xctest */,
+				033803C52192B75E00B407FF /* 充电启动动画UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		033803A42192B75600B407FF /* 充电启动动画 */ = {
+			isa = PBXGroup;
+			children = (
+				033803A52192B75600B407FF /* AppDelegate.h */,
+				033803A62192B75600B407FF /* AppDelegate.m */,
+				033803A82192B75600B407FF /* ViewController.h */,
+				033803A92192B75600B407FF /* ViewController.m */,
+				033803F52192B8C900B407FF /* PrefixHeader.pch */,
+				033803E82192B7AA00B407FF /* ZXPopView */,
+				033803D72192B78200B407FF /* ZJProgressHUD */,
+				033803AB2192B75600B407FF /* Main.storyboard */,
+				033803AE2192B75E00B407FF /* Assets.xcassets */,
+				033803B02192B75E00B407FF /* LaunchScreen.storyboard */,
+				033803B32192B75E00B407FF /* Info.plist */,
+				033803B42192B75E00B407FF /* main.m */,
+			);
+			path = "充电启动动画";
+			sourceTree = "<group>";
+		};
+		033803BD2192B75E00B407FF /* 充电启动动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				033803BE2192B75E00B407FF /* ______Tests.m */,
+				033803C02192B75E00B407FF /* Info.plist */,
+			);
+			path = "充电启动动画Tests";
+			sourceTree = "<group>";
+		};
+		033803C82192B75E00B407FF /* 充电启动动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				033803C92192B75E00B407FF /* ______UITests.m */,
+				033803CB2192B75E00B407FF /* Info.plist */,
+			);
+			path = "充电启动动画UITests";
+			sourceTree = "<group>";
+		};
+		033803D72192B78200B407FF /* ZJProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				033803D82192B78200B407FF /* ZJImageOnlyHUDView.h */,
+				033803D92192B78200B407FF /* ZJImageOnlyHUDView.m */,
+				033803DA2192B78200B407FF /* ZJPrivateHUDProtocol.h */,
+				033803DB2192B78200B407FF /* ZJProgressHUD.h */,
+				033803DC2192B78200B407FF /* ZJProgressHUD.m */,
+				033803DD2192B78200B407FF /* ZJProgressHUDView.h */,
+				033803DE2192B78200B407FF /* ZJProgressHUDView.m */,
+				033803DF2192B78200B407FF /* ZJTextAndImageHUDView.h */,
+				033803E02192B78200B407FF /* ZJTextAndImageHUDView.m */,
+				033803E12192B78200B407FF /* ZJTextOnlyHUDView.h */,
+				033803E22192B78200B407FF /* ZJTextOnlyHUDView.m */,
+			);
+			path = ZJProgressHUD;
+			sourceTree = "<group>";
+		};
+		033803E82192B7AA00B407FF /* ZXPopView */ = {
+			isa = PBXGroup;
+			children = (
+				033803F22192B81300B407FF /* KHJCircleProgress.h */,
+				033803F32192B81300B407FF /* KHJCircleProgress.m */,
+				033803EF2192B7EF00B407FF /* KHJPopView.h */,
+				033803F02192B7EF00B407FF /* KHJPopView.m */,
+			);
+			path = ZXPopView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		033803A12192B75600B407FF /* 充电启动动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033803CE2192B75F00B407FF /* Build configuration list for PBXNativeTarget "充电启动动画" */;
+			buildPhases = (
+				0338039E2192B75600B407FF /* Sources */,
+				0338039F2192B75600B407FF /* Frameworks */,
+				033803A02192B75600B407FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "充电启动动画";
+			productName = "充电启动动画";
+			productReference = 033803A22192B75600B407FF /* 充电启动动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		033803B92192B75E00B407FF /* 充电启动动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033803D12192B75F00B407FF /* Build configuration list for PBXNativeTarget "充电启动动画Tests" */;
+			buildPhases = (
+				033803B62192B75E00B407FF /* Sources */,
+				033803B72192B75E00B407FF /* Frameworks */,
+				033803B82192B75E00B407FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				033803BC2192B75E00B407FF /* PBXTargetDependency */,
+			);
+			name = "充电启动动画Tests";
+			productName = "充电启动动画Tests";
+			productReference = 033803BA2192B75E00B407FF /* 充电启动动画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		033803C42192B75E00B407FF /* 充电启动动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033803D42192B75F00B407FF /* Build configuration list for PBXNativeTarget "充电启动动画UITests" */;
+			buildPhases = (
+				033803C12192B75E00B407FF /* Sources */,
+				033803C22192B75E00B407FF /* Frameworks */,
+				033803C32192B75E00B407FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				033803C72192B75E00B407FF /* PBXTargetDependency */,
+			);
+			name = "充电启动动画UITests";
+			productName = "充电启动动画UITests";
+			productReference = 033803C52192B75E00B407FF /* 充电启动动画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0338039A2192B75600B407FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = GAPSD;
+				TargetAttributes = {
+					033803A12192B75600B407FF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					033803B92192B75E00B407FF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 033803A12192B75600B407FF;
+					};
+					033803C42192B75E00B407FF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 033803A12192B75600B407FF;
+					};
+				};
+			};
+			buildConfigurationList = 0338039D2192B75600B407FF /* Build configuration list for PBXProject "充电启动动画" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 033803992192B75600B407FF;
+			productRefGroup = 033803A32192B75600B407FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				033803A12192B75600B407FF /* 充电启动动画 */,
+				033803B92192B75E00B407FF /* 充电启动动画Tests */,
+				033803C42192B75E00B407FF /* 充电启动动画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		033803A02192B75600B407FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033803B22192B75E00B407FF /* LaunchScreen.storyboard in Resources */,
+				033803AF2192B75E00B407FF /* Assets.xcassets in Resources */,
+				033803AD2192B75600B407FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033803B82192B75E00B407FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033803C32192B75E00B407FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0338039E2192B75600B407FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033803E32192B78200B407FF /* ZJImageOnlyHUDView.m in Sources */,
+				033803E42192B78200B407FF /* ZJProgressHUD.m in Sources */,
+				033803E62192B78200B407FF /* ZJTextAndImageHUDView.m in Sources */,
+				033803AA2192B75600B407FF /* ViewController.m in Sources */,
+				033803F12192B7EF00B407FF /* KHJPopView.m in Sources */,
+				033803E52192B78200B407FF /* ZJProgressHUDView.m in Sources */,
+				033803F42192B81300B407FF /* KHJCircleProgress.m in Sources */,
+				033803E72192B78200B407FF /* ZJTextOnlyHUDView.m in Sources */,
+				033803B52192B75E00B407FF /* main.m in Sources */,
+				033803A72192B75600B407FF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033803B62192B75E00B407FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033803BF2192B75E00B407FF /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033803C12192B75E00B407FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033803CA2192B75E00B407FF /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		033803BC2192B75E00B407FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 033803A12192B75600B407FF /* 充电启动动画 */;
+			targetProxy = 033803BB2192B75E00B407FF /* PBXContainerItemProxy */;
+		};
+		033803C72192B75E00B407FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 033803A12192B75600B407FF /* 充电启动动画 */;
+			targetProxy = 033803C62192B75E00B407FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		033803AB2192B75600B407FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033803AC2192B75600B407FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		033803B02192B75E00B407FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033803B12192B75E00B407FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		033803CC2192B75F00B407FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		033803CD2192B75F00B407FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		033803CF2192B75F00B407FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6DQKEY3VC;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/充电启动动画/PrefixHeader.pch";
+				INFOPLIST_FILE = "充电启动动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gapsd.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		033803D02192B75F00B407FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6DQKEY3VC;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/充电启动动画/PrefixHeader.pch";
+				INFOPLIST_FILE = "充电启动动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gapsd.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		033803D22192B75F00B407FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6DQKEY3VC;
+				INFOPLIST_FILE = "充电启动动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gapsd.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/充电启动动画.app/充电启动动画";
+			};
+			name = Debug;
+		};
+		033803D32192B75F00B407FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6DQKEY3VC;
+				INFOPLIST_FILE = "充电启动动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gapsd.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/充电启动动画.app/充电启动动画";
+			};
+			name = Release;
+		};
+		033803D52192B75F00B407FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6DQKEY3VC;
+				INFOPLIST_FILE = "充电启动动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gapsd.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "充电启动动画";
+			};
+			name = Debug;
+		};
+		033803D62192B75F00B407FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6DQKEY3VC;
+				INFOPLIST_FILE = "充电启动动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gapsd.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "充电启动动画";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0338039D2192B75600B407FF /* Build configuration list for PBXProject "充电启动动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033803CC2192B75F00B407FF /* Debug */,
+				033803CD2192B75F00B407FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033803CE2192B75F00B407FF /* Build configuration list for PBXNativeTarget "充电启动动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033803CF2192B75F00B407FF /* Debug */,
+				033803D02192B75F00B407FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033803D12192B75F00B407FF /* Build configuration list for PBXNativeTarget "充电启动动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033803D22192B75F00B407FF /* Debug */,
+				033803D32192B75F00B407FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033803D42192B75F00B407FF /* Build configuration list for PBXNativeTarget "充电启动动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033803D52192B75F00B407FF /* Debug */,
+				033803D62192B75F00B407FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0338039A2192B75600B407FF /* Project object */;
+}
